@@ -3,6 +3,8 @@ Backdoor Command Execution VSFTPD v2.3.4.
 
 From the vulnerability assessment we’ve learned that this version of VSFTPD might contain a backdoor which has been created by an intruder. Although the backdoor was identified and removed quickly by the developers, many people have downloaded and installed the backdoored version of VSFTPD. The backdoor payload is initiated in response to a :) character combination in the username which represents a smiley face. The code sets up a bind shell listener on port 6200.
 
+![image](https://user-images.githubusercontent.com/76706456/152902408-3b3d7b62-9cc9-46cc-a6b9-6e5fdbaa7738.png)
+
 ##
 
 References:
